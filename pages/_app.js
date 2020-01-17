@@ -2,6 +2,9 @@ import App from 'next/app'
 import React from 'react'
 import { ThemeProvider } from 'styled-components'
 
+import "normalize.css";
+
+
 const theme = {
   colors: {
     primary: "pink",
